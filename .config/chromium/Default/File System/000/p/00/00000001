@@ -1,0 +1,44 @@
+13:38:28 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+13:38:34 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+15:19:18 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+15:19:20 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+15:31:45 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+18:00:49 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+18:01:12 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+18:01:15 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+18:22:11 GMT-0500 (CDT) (WARN) https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwiV9tP6wurPAhWE4D4KHUbPAoUQFggqMAI&url=http%3A%2F%2Focw.mit.edu%2Fcourses%2Flinguistics-and-philosophy%2F24-946-linguistic-theory-and-the-japanese-language-fall-2004%2Flecture-notes%2Fho_lct_8qr_scmbg.pdf&usg=AFQjCNHlYOrsyALu07x9VE-j2trKo6eocA&sig2=RPBHxTrVV31sADF2Cxj5SQ: Couldn't initialize clearly custom detect
+    at Object.H [as isCustomFormat] (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:9134)
+    at Object.isSiteEligible (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:542)
+    at b (/content/tooltips/custom_tooltip_check.js:2:94)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/tooltips/custom_tooltip_check.js:2:351
+    at Object.execCb (/third_party/require/require.js:6:12300)
+    at Object.check (/third_party/require/require.js:6:6850)
+    at Object.<anonymous> (/third_party/require/require.js:6:8952)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:670
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:9310
+18:36:09 GMT-0500 (CDT) (WARN) https://catalog.lib.uchicago.edu/vufind/Record/1647348/Save: Couldn't initialize clearly custom detect
+    at Object.H [as isCustomFormat] (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:9134)
+    at Object.isSiteEligible (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:542)
+    at b (/content/tooltips/custom_tooltip_check.js:2:94)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/tooltips/custom_tooltip_check.js:2:351
+    at Object.execCb (/third_party/require/require.js:6:12300)
+    at Object.check (/third_party/require/require.js:6:6850)
+    at Object.<anonymous> (/third_party/require/require.js:6:8952)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:670
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:9310
+18:49:58 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+18:50:03 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+18:50:40 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+18:50:43 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+18:51:06 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+18:51:08 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+20:12:53 GMT-0500 (CDT) (WARN) https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwiEvbzc2-rPAhXIWRoKHeFRCNsQFgg2MAM&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fkami-pdf-and-document-mar%2Fecnphlgnajanjnkcmbpancdjoidceilk&usg=AFQjCNF0MFYVwqsR-HE6W6oLuQ-0Px7MbA&sig2=mj-9FnWF-nSsMXJYIwsi9w: Couldn't initialize clearly custom detect
+    at Object.H [as isCustomFormat] (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:9134)
+    at Object.isSiteEligible (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:542)
+    at b (/content/tooltips/custom_tooltip_check.js:2:94)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/tooltips/custom_tooltip_check.js:2:351
+    at Object.execCb (/third_party/require/require.js:6:12300)
+    at Object.check (/third_party/require/require.js:6:6850)
+    at Object.<anonymous> (/third_party/require/require.js:6:8952)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:670
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:9310

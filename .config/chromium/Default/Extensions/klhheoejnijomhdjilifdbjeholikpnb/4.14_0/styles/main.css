@@ -1,0 +1,31 @@
+#shortURL {
+	font-family:sans-serif;
+	font-size:22px;
+	color:grey;
+	margin-bottom: 0px;
+	padding-left:4px;
+}
+
+#load {
+	position:absolute;
+	top:21px;
+	right:30px;
+}
+
+.container {
+	width: 420px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.row {
+	margin-bottom: 12px;
+}
+
+#inputRow {
+	margin-bottom: 26px;
+}
+
+#addthis {
+	padding-bottom: 0px;
+}

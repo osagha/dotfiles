@@ -1,0 +1,83 @@
+{
+   "background": {
+      "scripts": [ "lib/lscache.js", "browserSpecific/backgroundApiWrapper.js", "config.js", "utils.js", "background.js", "auto_reveal/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "resources/img/catc2-19.png",
+         "38": "resources/img/catc2-38.png"
+      },
+      "default_popup": "resources/browser-action.html",
+      "default_title": "Coupons at Checkout"
+   },
+   "commands": {
+
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "resources/css/content.css" ],
+      "js": [ "config.js", "lib/jquery.js", "lib/arrive.js", "browserSpecific/contentscriptApiWrapper.js", "currencies.js", "utils.js", "auto_reveal/content.js", "content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "hooks/underarmour.js" ],
+      "matches": [ "*://*.underarmour.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "hooks/yoox.js" ],
+      "matches": [ "*://*.yoox.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "hooks/raise.js" ],
+      "matches": [ "*://*.raise.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "hooks/udemy.js" ],
+      "matches": [ "*://*.udemy.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "hooks/kohls.js" ],
+      "matches": [ "*://*.kohls.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "hooks/jcpenney.js" ],
+      "matches": [ "*://*.jcpenney.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "hooks/papajohns.js" ],
+      "matches": [ "*://*.papajohns.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "config.js", "lib/jquery.js", "browserSpecific/contentscriptApiWrapper.js", "utils.js", "auto_reveal/auto-reveal-iframe.js" ],
+      "matches": [ "https://couponfollow.com/sites/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "During checkout it will remind, show, and automatically enter coupon codes for you with a single click.",
+   "homepage_url": "http://couponfollow.com/checkout",
+   "icons": {
+      "128": "resources/img/catc2-128.png",
+      "16": "resources/img/catc2-16.png",
+      "48": "resources/img/catc2-32.png",
+      "64": "resources/img/catc2-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsOcwqlL4TlbCLW89Qzm+acuYhmmpwn8j9b94LbnqlezJh6fUu8QweFNUGguhifwGrGaA+4V6AL1E8pioHMCCCEl2nX2HQ0myI3+RtikXl4JPxaTPERvTV4s8xh0atH8FvfqgMjAdO+ZVPeWvbl06gmIGmMB9kabyeB3H1IzKpRwIDAQAB",
+   "manifest_version": 2,
+   "name": "Coupons at Checkout",
+   "options_page": "resources/options.html",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "resources/options.html"
+   },
+   "permissions": [ "tabs", "\u003Call_urls>", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.7.3",
+   "web_accessible_resources": [ "/resources/savingsguard-notify.html", "/resources/savingsguard-modal.html", "/resources/img/modal-coupons-at-checkout-logo@2x.png" ]
+}

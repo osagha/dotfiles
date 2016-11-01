@@ -1,0 +1,18 @@
+#collapse {
+    /* Position right below the button */
+    position: absolute;
+    z-index: 10;
+
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+    font-size: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+
+    width: 146px;
+}

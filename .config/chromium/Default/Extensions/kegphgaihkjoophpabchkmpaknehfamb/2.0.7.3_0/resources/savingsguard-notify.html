@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Coupons at Checkout</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/resources/css/savingsguard.css" />
+        <link rel="stylesheet" href="/resources/css/normalize.css" />
+
+        <!--
+         The font is injected through grunt
+         Chrome: Use google font
+         Firefox: local (downloaded) font is used which is injected in index.js (no font is injected here). That's because
+         of restriction imposed by Firefox AMO to use local resources only
+         -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body class="auto-apply">
+        <img class="auto-apply__cf-logo to-absolute" src="/resources/img/modal-coupons-at-checkout-logo@2x.png" alt="Coupon Follow" />
+        <p class="auto-apply__paragraph">Additional savings may be available</p>
+
+        <button class="auto-apply__button" id="startAutoApply" >Find Coupons</button>
+
+        <a class="auto-apply__close" id="close" href="#">Close</a>
+
+        <script src="/browserSpecific/contentscriptApiWrapper.js"></script>
+        <script src="/config.js"></script>
+        <script src="/utils.js"></script>
+        <script src="/resources/js/savingsguard-notify.js"></script>
+
+        <!-- Following element is only used for matching pattern in index.js (Firefox) to inject scripts in the page -->
+        <span style="display: none;" id="savingsguardNotifyPage"></span>
+    </body>
+</html>
+

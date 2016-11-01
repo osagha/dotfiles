@@ -1,0 +1,66 @@
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Coupons at Checkout</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/resources/css/options.css">
+
+        <!--
+         The font is injected through grunt
+         Chrome: Use google font
+         Firefox: local (downloaded) font is used which is injected in index.js (no font is injected here). That's because
+         of restriction imposed by Firefox AMO to use local resources only
+        -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
+    </head>
+<body class="settings">
+
+    <div class="settings__wrapper">
+        <div>
+            <img class="settings__logo to-absolute" src="/resources/img/logo.png">
+        </div>
+
+        <div class="settings__content">
+            <p>These options allow you to change how the Coupons at Checkout extention interacts with your web browser</p>
+            <p>Need more help? Visit the <a href="http://support.couponfollow.com/knowledgebase/topics/23356-coupons-at-checkout" target="_blank">support page</a></p>
+
+            <h2 class="settings__title">Settings</h2>
+
+			<div class="settings__block">
+                <div class="settings__block-half x--left">
+                    <label class="settings__block-label">Savings Guard  Enabled?</label>
+                    <p class="settings__block-description">During checkout a notification will appear.  When clicking "Find Savings" it'll automatically try coupon codes for you with a single click.  The maximum savings will be automatically apply to your purchase.  This works on few hundred popular retailer websites. <br> <a href="http://support.couponfollow.com/knowledgebase/articles/776154-what-is-savings-guard" target="_blank">Learn More</a></p>
+                </div>
+                <div class="settings__block-half x--right">
+                    <select id="savings-guard" >
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+            </div>
+			
+            <div class="settings__block">
+                <div class="settings__block-half x--left">
+                    <label class="settings__block-label">Code Revealer Enabled?</label>
+                    <p class="settings__block-description">Enable Coupons at Checkout to detect the promotion code box during checkout.   When the box is detected it will be highlihgted in red.  Clicking the box reveals coupon codes auto-magically.<br> <a href="http://support.couponfollow.com/knowledgebase/articles/776166-what-is-code-revealer" target="_blank">Learn More</a></p>
+                </div>
+
+                <div class="settings__block-half x--right">
+                    <select id="code-revealer">
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+            </div>
+			
+			<p style='font-size:10px;'>Read our <a href='http://couponfollow.com/checkout/privacy'>privacy policy</a> to learn how we use the aggregate data collected by this extension.</p>
+        </div>
+    </div>
+
+    <script src="/lib/lscache.js"></script>
+    <script src="/browserSpecific/backgroundApiWrapper.js"></script>
+    <script src="/resources/js/options.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon-19.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "grab your tabs!"
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/contentScript.js" ],
+      "matches": [ "https://*.tab.bz/*" ]
+   } ],
+   "description": "turn your open tabs into one super short link!",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "19": "images/icon-19.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTIm+oEYMuXuHaFNH43uBVuIEvnYpV0rU/20CqIbU1lNIu1nKqB+kaotrZsiUAU1hoKKusG+p0tFeQEAJD12BuMZskRickeNx4RDZ3VFfkuWpTF2wiPUSdeNpg2/+A+vann0iK78pUMudOe3DTq46ZPnnepXOsNJl+xeNJumiJBwIDAQAB",
+   "manifest_version": 2,
+   "name": "tab packager by tab.bz",
+   "permissions": [ "tabs", "https://*.tab.bz/*", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.14"
+}

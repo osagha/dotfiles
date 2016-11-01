@@ -1,0 +1,1 @@
+"use strict";chrome.runtime.sendMessage({method:"getExtensionId"},function(a){if(null!==a.extensionId){var b=document.createElement("div");b.id="extensionId";var c=document.createTextNode(a.extensionId);b.appendChild(c),(document.head||document.documentElement).appendChild(b)}});

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/omar/Downloads/GradSchools.xlsx" added="2016-10-19T19:34:26Z" modified="2016-10-26T21:27:12Z" visited="2016-10-19T19:34:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 5.2" exec="&apos;soffice %u&apos;" modified="2016-10-26T21:27:12Z" count="25"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Downloads/stepanovich.pdf" added="2016-10-20T23:29:58Z" modified="2016-10-20T23:29:58Z" visited="2016-10-20T23:29:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2016-10-20T23:29:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Downloads/saito.pdf" added="2016-10-20T23:32:05Z" modified="2016-10-20T23:32:05Z" visited="2016-10-20T23:32:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2016-10-20T23:32:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Downloads/saito03.pdf" added="2016-10-20T23:32:47Z" modified="2016-10-20T23:32:47Z" visited="2016-10-20T23:32:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2016-10-20T23:32:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Downloads/mahajanDiss.pdf" added="2016-10-20T23:33:17Z" modified="2016-10-20T23:33:17Z" visited="2016-10-20T23:33:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2016-10-20T23:33:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Downloads/scramblingiseverywhere.pdf" added="2016-10-20T23:39:20Z" modified="2016-10-20T23:39:20Z" visited="2016-10-20T23:39:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2016-10-20T23:39:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Downloads/svevonius.pdf" added="2016-10-20T23:39:36Z" modified="2016-10-20T23:39:36Z" visited="2016-10-20T23:39:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2016-10-20T23:39:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Downloads/scramblingoverview.pdf" added="2016-10-20T23:40:29Z" modified="2016-10-21T01:16:51Z" visited="2016-10-20T23:40:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2016-10-21T01:16:51Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Downloads/fintel-iatridou-2009-lsa-modals.pdf" added="2016-10-20T23:41:48Z" modified="2016-10-20T23:41:48Z" visited="2016-10-20T23:41:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2016-10-20T23:41:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Dropbox/Paper%2520Stuff/Final%2520Paper/Questionnaire1.docx" added="2016-10-24T18:39:49Z" modified="2016-10-25T03:33:54Z" visited="2016-10-24T18:39:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 5.2" exec="&apos;soffice %u&apos;" modified="2016-10-25T03:33:54Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Dropbox/Grad%2520School/GradSchools.xlsx" added="2016-10-26T21:26:00Z" modified="2016-10-26T22:07:17Z" visited="2016-10-26T21:26:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 5.2" exec="&apos;soffice %u&apos;" modified="2016-10-26T22:07:17Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Downloads/noongarContract.html" added="2016-10-26T22:13:56Z" modified="2016-10-26T22:13:56Z" visited="2016-10-26T22:13:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2016-10-26T22:13:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/omar/Dropbox/HindiPaper/Final%2520Paper/Questionnaire1.docx" added="2016-10-27T16:48:26Z" modified="2016-10-27T16:58:39Z" visited="2016-10-27T16:48:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 5.2" exec="&apos;soffice %u&apos;" modified="2016-10-27T16:58:39Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

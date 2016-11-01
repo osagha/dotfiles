@@ -1,0 +1,32 @@
+11:47:49 GMT-0500 (CDT) (WARN) https://www.udacity.com/course/data-analyst-nanodegree--nd002: Couldn't initialize clearly custom detect
+    at Object.H [as isCustomFormat] (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:9134)
+    at Object.isSiteEligible (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:542)
+    at b (/content/tooltips/custom_tooltip_check.js:2:94)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/tooltips/custom_tooltip_check.js:2:351
+    at Object.execCb (/third_party/require/require.js:6:12300)
+    at Object.check (/third_party/require/require.js:6:6850)
+    at Object.<anonymous> (/third_party/require/require.js:6:8952)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:670
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:9310
+12:38:05 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+12:38:07 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+14:01:17 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+14:01:22 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+14:01:46 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+14:01:48 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+17:35:27 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+17:35:32 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+17:59:06 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+17:59:30 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+17:59:53 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+18:00:01 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+19:06:34 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+19:06:40 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+19:07:03 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+19:07:05 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+19:10:15 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+19:10:20 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+19:17:41 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+19:17:52 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+19:32:39 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+19:32:44 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210

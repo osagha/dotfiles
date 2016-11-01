@@ -1,0 +1,32 @@
+2016/10/25-17:19:45.823 498 Reusing MANIFEST /home/omar/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2016/10/25-17:19:45.824 498 Recovering log #197
+2016/10/25-17:19:45.911 498 Level-0 table #201: started
+2016/10/25-17:19:46.026 498 Level-0 table #201: 2017730 bytes OK
+2016/10/25-17:19:46.048 498 Delete type=0 #197
+2016/10/25-17:20:50.111 1491 Level-0 table #204: started
+2016/10/25-17:20:50.206 1491 Level-0 table #204: 2017974 bytes OK
+2016/10/25-17:20:50.214 1491 Delete type=0 #202
+2016/10/25-17:24:44.398 1491 Level-0 table #206: started
+2016/10/25-17:24:44.476 1491 Level-0 table #206: 2017734 bytes OK
+2016/10/25-17:24:44.486 1491 Delete type=0 #203
+2016/10/25-18:20:49.462 1491 Level-0 table #208: started
+2016/10/25-18:20:49.529 1491 Level-0 table #208: 2018123 bytes OK
+2016/10/25-18:20:49.536 1491 Delete type=0 #205
+2016/10/25-18:20:49.538 1491 Compacting 4@0 + 1@1 files
+2016/10/25-18:20:49.714 1491 Generated table #209@0: 3 keys, 2017997 bytes
+2016/10/25-18:20:49.714 1491 Compacted 4@0 + 1@1 files => 2017997 bytes
+2016/10/25-18:20:49.721 1491 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/10/25-18:20:49.721 1491 Delete type=2 #208
+2016/10/25-18:20:49.723 1491 Delete type=2 #206
+2016/10/25-18:20:49.724 1491 Delete type=2 #201
+2016/10/25-18:20:49.725 1491 Delete type=2 #199
+2016/10/25-18:20:49.726 1491 Delete type=2 #204
+2016/10/26-00:24:04.393 1491 Level-0 table #211: started
+2016/10/26-00:24:04.491 1491 Level-0 table #211: 2017734 bytes OK
+2016/10/26-00:24:04.504 1491 Delete type=0 #207
+2016/10/26-00:33:08.710 1491 Level-0 table #213: started
+2016/10/26-00:33:08.906 1491 Level-0 table #213: 2017991 bytes OK
+2016/10/26-00:33:08.914 1491 Delete type=0 #210
+2016/10/26-00:33:14.961 1491 Level-0 table #215: started
+2016/10/26-00:33:15.067 1491 Level-0 table #215: 2017727 bytes OK
+2016/10/26-00:33:15.074 1491 Delete type=0 #212

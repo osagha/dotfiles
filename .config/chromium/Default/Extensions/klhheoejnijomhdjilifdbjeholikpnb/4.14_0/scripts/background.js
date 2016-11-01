@@ -1,0 +1,1 @@
+"use strict";chrome.runtime.onMessage.addListener(function(a,b,c){return"getExtensionId"===a.method&&chrome.storage.sync.get("extensionId",function(a){c(a.hasOwnProperty("extensionId")?{extensionId:a.extensionId}:{extensionId:null})}),!0});

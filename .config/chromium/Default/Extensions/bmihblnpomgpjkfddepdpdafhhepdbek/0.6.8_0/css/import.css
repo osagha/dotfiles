@@ -1,0 +1,31 @@
+/**
+ * Import Styles for Minimalist
+ *
+ * © 2013 Ansel Santosa
+ * Licensed under GNU GPL v3
+ **/
+
+.minimalist {
+    background: #ddd;
+    border-radius: 5px;
+    height: 70px;
+    padding: .25em 1em;
+    position: relative;
+    margin-top: 1em;
+    text-align: center;
+    width: 380px;
+}
+
+#install + .minimalist a {
+    left: 100px;
+    position: absolute;
+    top: 20px;
+}
+
+.post_links .minimalistInstall {
+    border-color: #2F5BB7;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    padding: 3px 10px;
+}

@@ -1,0 +1,10 @@
+:host {
+  left: var(--leftPos);
+  top: var(--topPos);
+  width: var(--width);
+  height: var(--height);
+  background-color: #0066FF;
+  position: absolute;
+  border: 1px solid #FFFFFF;
+  z-index: 50;
+}

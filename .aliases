@@ -1,0 +1,5 @@
+alias rgr="sudo ranger"
+alias pac="sudo pacman"
+alias v="sudo vim"
+alias gv="sudo gvim"
+alias l="ls -gAh"

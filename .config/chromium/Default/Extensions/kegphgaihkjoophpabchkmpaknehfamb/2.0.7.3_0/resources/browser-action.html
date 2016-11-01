@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Coupons at Checkout</title>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="/resources/css/normalize.css" />
+	<link rel="stylesheet" href="/resources/css/browser-action.css" />
+
+    <!--
+     The font is injected through grunt
+     Chrome: Use google font
+     Firefox: local (downloaded) font is used which is injected in index.js (no font is injected here). That's because
+     of restriction imposed by Firefox AMO to use local resources only
+    -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="browser-action">
+	<div class="browser-dropdown">
+		<header class="browser-dropdown__header">
+			<img class="browser-dropdown__cf-logo to-absolute" src="/resources/img/modal-coupons-at-checkout-logo@2x.png" alt="Coupon Follow" />
+			<a id="optionsPage" class="browser-dropdown__settings"href="#">Settings</a>
+		</header>
+
+		<form>
+			<ul>
+				<li class="browser-dropdown__option">
+					<label for="savings-guard" class="browser-dropdown__option-name">
+						Savings Guard
+						<span class="browser-dropdown__option-descr">Automagically try ALL codes at checkout</span>
+					</label>
+					<div id="savings-guard" class="toggle-button checked" name="showAutoApplyBox" style="cursor: pointer;"> </div>
+				</li>
+
+				<li class="browser-dropdown__option">
+					<label for="code-revealer" class="browser-dropdown__option-name m--revealer">
+						Code Revealer
+						<span class="browser-dropdown__option-descr">Reveal coupon codes with a single click</span>
+					</label>
+					<div id="code-revealer" name="highlight" class="toggle-button checked" style="cursor: pointer;"></div>
+				</li>
+			</ul>
+		</form>
+
+		
+		<div class="browser-dropdown__feedback m--share">
+			<p>Enjoying this extension? Let others know!</p>
+			<a href="#" id="sharesavings" class="button m--white m--twitter m--small">Share the savings!</a>
+		</div>
+		
+		<div class="browser-dropdown__feedback m--rate" style="display: none;">
+			<p>Enjoying this extension? Write a review!</p>
+			<a id="writeReview" href="#" target="_blank" class="button m--white m--small close">Rate Coupons at Checkout</a>
+		</div>
+
+		<div class="savings-progress" style="display: none;">
+			<progress class="savings-progress__bar" max="100" value="88"></progress>
+			<p class="savings-progress__title">Community savings to date <span class="savings-progress__cash-value">$8,807.53!</span></p>
+		</div>
+
+		<ul class="browser-dropdown__footer-links">
+			<li class="browser-dropdown__footer-link-item">
+				<a href="#" id="submitcode">Submit a Code</a>
+			</li>
+			<li class="browser-dropdown__footer-link-item">
+				<a href="http://support.couponfollow.com/knowledgebase/topics/23356-coupons-at-checkout" class="close" target="_blank">Help and FAQ</a>
+			</li>
+			<li class="browser-dropdown__footer-link-item">
+				<a href='#' id="submitfeedback">Send Feedback</a>
+			</li>
+		</ul>
+	</div>
+
+	<script src="/lib/jquery.js"></script>
+    <script src="/lib/lscache.js"></script>
+	<script src="/browserSpecific/backgroundApiWrapper.js"></script>
+	<script src="/config.js"></script>
+	<script src="/utils.js"></script>
+	<script src="/resources/js/browser-action.js"></script>
+
+</body>
+</html>

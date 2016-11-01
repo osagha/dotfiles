@@ -1,0 +1,45 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "data/master.js", "js/Module.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icons/19.png",
+      "default_popup": "html/browserAction.html",
+      "default_title": "Minimalist"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/runtime-minimalist.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "css/components.css", "css/import.css" ],
+      "js": [ "js/runtime-userstyles.js" ],
+      "matches": [ "*://userstyles.org/styles/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "css/components.css", "css/import.css" ],
+      "js": [ "js/runtime-userscripts.js" ],
+      "matches": [ "*://userscripts.org/scripts/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "css/import.css" ],
+      "js": [ "js/runtime-stylebot.js" ],
+      "matches": [ "*://stylebot.me/styles/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "You live in webapps. Make them yours",
+   "icons": {
+      "128": "img/icons/128.png",
+      "16": "img/icons/16.png",
+      "48": "img/icons/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBFIYcaIkxVtihzEh66bNx3hCu2qNe0QNq/lkwQm0ntItFlSQgkgfHgHdvpthXn61pj60+53Vcj9m+M9MvYJT2p8eqYvVKy8fE5MvrnCwiDccvkSzxK4GcUFXfxR9nAa4hSXNoMgmyWOu8LZARdaAEfCcP4aEoJyFPu5Obzsa5fQIDAQAB",
+   "manifest_version": 2,
+   "name": "Minimalist for Everything",
+   "options_page": "html/options.html",
+   "permissions": [ "\u003Call_urls>", "clipboardWrite", "notifications", "tabs", "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.8"
+}

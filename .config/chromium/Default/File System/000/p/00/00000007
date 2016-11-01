@@ -1,0 +1,10 @@
+00:23:09 GMT-0500 (CDT) (WARN) https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=12&cad=rja&uact=8&ved=0ahUKEwjngJH53PfPAhVC3SYKHbjiAxo4ChAWCCUwAQ&url=http%3A%2F%2Fwww.openisbn.com%2Fdownload%2F0691122792.pdf&usg=AFQjCNFVkahYxlvRKPVfuXemolef5ywOjA&sig2=pi98rGNwaA25fm9vaiPGBw&bvm=bv.136593572,d.eWE: Couldn't initialize clearly custom detect
+    at Object.H [as isCustomFormat] (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:9134)
+    at Object.isSiteEligible (eval at finishLoadingScript (/content/require/require-config.js:2:101), <anonymous>:2:542)
+    at b (/content/tooltips/custom_tooltip_check.js:2:94)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/tooltips/custom_tooltip_check.js:2:351
+    at Object.execCb (/third_party/require/require.js:6:12300)
+    at B.check (/third_party/require/require.js:6:6850)
+    at B.<anonymous> (/third_party/require/require.js:6:8952)
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:670
+    at chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js:6:9310

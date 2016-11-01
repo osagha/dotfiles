@@ -1,0 +1,10 @@
+14:58:39 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+15:44:10 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+15:44:20 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+15:44:43 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+15:44:53 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+15:45:06 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210
+15:45:06 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+16:21:33 GMT-0500 (CDT) (LOG) /background.html: Got urls on auth{"noteStoreUrl":"https://www.evernote.com/shard/s13/notestore","webApiUrlPrefix":"https://www.evernote.com/shard/s13/","userStoreUrl":"https://www.evernote.com/shard/s13/edam/user","utilityUrl":"https://www.evernote.com/shard/s13/utility","messageStoreUrl":"https://www.evernote.com/shard/s13/messagestore","userWebSocketUrl":"wss://ws.evernote.com/shard/s13/id"}    at g (/js/main/Auth.js:2:2341)
+17:14:29 GMT-0500 (CDT) (LOG) /background.html: Went offline. at /js/main/Extension.js:3:6135
+17:14:33 GMT-0500 (CDT) (LOG) /background.html: Went online. at /js/main/Extension.js:3:6210

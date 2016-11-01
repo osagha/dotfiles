@@ -1,0 +1,909 @@
+{
+   "checksum": "788dc8d61367895192a8c6f0ae3293f1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "12988444678285427",
+            "id": "6",
+            "name": "YouTube",
+            "sync_transaction_version": "13",
+            "type": "url",
+            "url": "http://www.youtube.com/"
+         }, {
+            "date_added": "12989664245847517",
+            "id": "7",
+            "name": "Archive",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://day9.tv/archives/"
+         }, {
+            "date_added": "12988445270439973",
+            "id": "8",
+            "name": "Wolfram|Alpha",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.wolframalpha.com/"
+         }, {
+            "date_added": "13050819056822013",
+            "id": "9",
+            "name": "Secrets you should have learned before your first programming job",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://blog.newrelic.com/2014/06/03/10-secrets-learned-software-engineering-degree-probably-didnt/?utm_source=TBLA&utm_medium=content&utm_content=DegreeDidnt&utm_campaign=DevBlog&mpc=CN-TBLA-mobile-EN-Signup-Dev-DegreeDidnt"
+         }, {
+            "children": [ {
+               "date_added": "13053674668143343",
+               "id": "116",
+               "name": "xkcd",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://xkcd.com/"
+            }, {
+               "date_added": "13053674668143346",
+               "id": "117",
+               "name": "Hark, a vagrant",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://harkavagrant.com/"
+            }, {
+               "date_added": "13053674668143351",
+               "id": "118",
+               "name": "Dinosaur Comics",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.qwantz.com/index.php"
+            }, {
+               "date_added": "13053674668143354",
+               "id": "119",
+               "name": "Saturday Morning Breakfast Cereal",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.smbc-comics.com/"
+            }, {
+               "date_added": "13053674668143358",
+               "id": "120",
+               "name": "Three Word Phrase",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://threewordphrase.com/"
+            }, {
+               "date_added": "13053674668143361",
+               "id": "121",
+               "name": "Gunshow",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://gunshowcomic.com/"
+            }, {
+               "date_added": "13053674668143367",
+               "id": "122",
+               "name": "Darths & Droids",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://darthsanddroids.net/"
+            } ],
+            "date_added": "13121377010561273",
+            "date_modified": "13121377010561273",
+            "id": "10",
+            "name": "Webcomics",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13053674668143512",
+               "id": "89",
+               "name": "CMSC-16200 — Lecture",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://brick.cs.uchicago.edu/Courses/CMSC-16200/2014/"
+            }, {
+               "date_added": "13053674668143516",
+               "id": "90",
+               "name": "A Course on Deixis",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.hf.uio.no/ilos/personer/vit/kjelljs/a-course-on-deixis/"
+            }, {
+               "date_added": "13053674668143519",
+               "id": "91",
+               "name": "Lecture Notes on Indexicality",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://stuff.mit.edu/afs/athena/course/24/24.954/OldFiles/www/files/ind_notes.html"
+            }, {
+               "date_added": "13053674668143523",
+               "id": "92",
+               "name": "‎people.cs.uchicago.edu/~stoehr/",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://people.cs.uchicago.edu/~stoehr/"
+            }, {
+               "date_added": "13053674668143526",
+               "id": "93",
+               "name": "Semantics and Pragmatics 1",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://semantics.uchicago.edu/kennedy/classes/f11/sp1/"
+            }, {
+               "date_added": "13053674668143530",
+               "id": "94",
+               "name": "Semantics and Pragmatics 2",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://semantics.uchicago.edu/kennedy/classes/w11/sp2/"
+            }, {
+               "date_added": "13053674668143533",
+               "id": "95",
+               "name": "Syntax 1",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://semantics.uchicago.edu/kennedy/classes/f06/syntax1.html"
+            }, {
+               "date_added": "13053674668143536",
+               "id": "96",
+               "name": "Syntax 2",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://semantics.uchicago.edu/kennedy/classes/w06/syn2.html"
+            }, {
+               "date_added": "13053674668143540",
+               "id": "97",
+               "name": "Seminar in Semantics: Vagueness",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://semantics.uchicago.edu/kennedy/classes/s06/vagueness.html"
+            }, {
+               "date_added": "13053674668143543",
+               "id": "98",
+               "name": "Semantics Bootcamp",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://nasslli2012.com/files/bootcamp/coppock-sem-1.pdf"
+            }, {
+               "date_added": "13053674668143547",
+               "id": "99",
+               "name": "Lima-Econ",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://home.uchicago.edu/~vlima/courses/index.html"
+            }, {
+               "date_added": "13053674668143550",
+               "id": "100",
+               "name": "Tian-Econ",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://home.uchicago.edu/~/tiany/"
+            }, {
+               "date_added": "13053674668143553",
+               "id": "101",
+               "name": "Tian-202",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://sites.google.com/site/yuantian86/home/econ-202-summer-2012"
+            }, {
+               "date_added": "13053674668143557",
+               "id": "102",
+               "name": "CSWiki",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://brick.cs.uchicago.edu/Courses/CMSC-16200/2014/pmwiki/pmwiki.php"
+            }, {
+               "date_added": "13053674668143560",
+               "id": "103",
+               "name": "Matrix",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.stat.uchicago.edu/~lekheng/courses/309/"
+            }, {
+               "date_added": "13053674668143563",
+               "id": "104",
+               "name": "Teaching, Gregory F. Lawler",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.math.uchicago.edu/~lawler/teaching.html"
+            }, {
+               "date_added": "13053674668143567",
+               "id": "105",
+               "name": "Computational Statistics: Stat 227",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://statweb.stanford.edu/~susan/courses/s227/"
+            }, {
+               "date_added": "13053674668143570",
+               "id": "106",
+               "name": "Mathematical methods for economic theory: a tutorial",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.economics.utoronto.ca/osborne/MathTutorial/index.html"
+            }, {
+               "date_added": "13053674668143574",
+               "id": "107",
+               "name": "Economics 230B",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.econ.ucsb.edu/~tedb/Courses/GraduateTheoryUCSB/Theory.html"
+            }, {
+               "date_added": "13053674668143577",
+               "id": "108",
+               "name": "Phonetics (UCLA)",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.linguistics.ucla.edu/people/hayes/103/"
+            }, {
+               "date_added": "13053674668143581",
+               "id": "109",
+               "name": "Number Theory",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://db.math.ust.hk/notes_download/advanced/numbertheory/"
+            }, {
+               "date_added": "13053674668143601",
+               "id": "110",
+               "name": "BabaiREU",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://people.cs.uchicago.edu/~laci/REU11/appr.html"
+            }, {
+               "date_added": "13053674668143604",
+               "id": "111",
+               "name": "Chicago undergraduate mathematics bibliography",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.ocf.berkeley.edu/~abhishek/chicmath.htm#i:real-analysis"
+            }, {
+               "date_added": "13056533712474509",
+               "id": "112",
+               "name": "Mathematical Foundations of Linguistics",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://home.uchicago.edu/~gkobele/2014/Autumn/MathLing/index.html"
+            }, {
+               "date_added": "13060664454188053",
+               "id": "113",
+               "name": "Books: Language, Thought, and Reality",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://cognet.mit.edu.proxy.uchicago.edu/library/books/view?isbn=0262730065"
+            }, {
+               "date_added": "13073602977512374",
+               "id": "114",
+               "name": "Stat304",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.stat.uchicago.edu/~wichura/Stat304/Handouts/"
+            }, {
+               "date_added": "13053674668143388",
+               "id": "115",
+               "name": "ECON 20110",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.glenweyl.com/teaching"
+            }, {
+               "date_added": "13121480464220094",
+               "id": "126",
+               "name": "Lecture Notes | Advanced Syntax | Linguistics and Philosophy | MIT OpenCourseWare",
+               "sync_transaction_version": "9",
+               "type": "url",
+               "url": "https://ocw.mit.edu/courses/linguistics-and-philosophy/24-952-advanced-syntax-spring-2007/lecture-notes/"
+            }, {
+               "date_added": "13121480495537367",
+               "id": "127",
+               "name": "NASSLLI 2016 courses",
+               "sync_transaction_version": "11",
+               "type": "url",
+               "url": "http://nasslli2016.rutgers.edu/courses.html"
+            }, {
+               "date_added": "13121500879012208",
+               "id": "130",
+               "name": "Johan van Benthem",
+               "sync_transaction_version": "12",
+               "type": "url",
+               "url": "https://staff.fnwi.uva.nl/j.vanbenthem/teaching.html"
+            }, {
+               "date_added": "13121503234199667",
+               "id": "131",
+               "name": "NASSLLI 2016 course descriptions",
+               "sync_transaction_version": "12",
+               "type": "url",
+               "url": "http://nasslli2016.rutgers.edu/course_BarkerPryor.html"
+            }, {
+               "date_added": "13121503688669076",
+               "id": "132",
+               "name": "Hodges",
+               "sync_transaction_version": "12",
+               "type": "url",
+               "url": "http://wilfridhodges.co.uk/"
+            }, {
+               "date_added": "13121503699175618",
+               "id": "133",
+               "name": "Introduction to Logic",
+               "sync_transaction_version": "12",
+               "type": "url",
+               "url": "http://logic.philosophy.ox.ac.uk/"
+            } ],
+            "date_added": "13121377010561411",
+            "date_modified": "13121503699175618",
+            "id": "11",
+            "name": "Classes",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13053674668143484",
+               "id": "81",
+               "name": "Using Valgrind",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.cprogramming.com/debugging/valgrind.html"
+            }, {
+               "date_added": "13053674668143488",
+               "id": "82",
+               "name": "The Haskell Road to Logic, Maths and Programming",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://homepages.cwi.nl/~jve/HR/"
+            }, {
+               "date_added": "13053674668143491",
+               "id": "83",
+               "name": "Learn You a Haskell for Great Good!",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://learnyouahaskell.com/"
+            }, {
+               "date_added": "13053674668143494",
+               "id": "84",
+               "name": "Haskell Hierarchical Libraries",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.haskell.org/ghc/docs/6.10.2/html/libraries/"
+            }, {
+               "date_added": "13053674668143497",
+               "id": "85",
+               "name": "The Haskell 98 Report: Standard Prelude",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.haskell.org/onlinereport/standard-prelude.html"
+            }, {
+               "date_added": "13053674668143501",
+               "id": "86",
+               "name": "Haskell Tips",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://dev.stephendiehl.com/hask/"
+            }, {
+               "date_added": "13053674668143504",
+               "id": "87",
+               "name": "Project Euler",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://projecteuler.net/problems"
+            }, {
+               "date_added": "13053674668143507",
+               "id": "88",
+               "name": "The Python Challenge",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.pythonchallenge.com/"
+            } ],
+            "date_added": "13121377010561561",
+            "date_modified": "13121377010561561",
+            "id": "12",
+            "name": "Programming",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13053674668143444",
+               "id": "73",
+               "name": "pugh real mathematical analysis pdf - Google Search",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.google.com/search?client=safari&rls=en&q=pugh+real+mathematical+analysis+pdf&ie=UTF-8&oe=UTF-8"
+            }, {
+               "date_added": "13053674668143448",
+               "id": "74",
+               "name": "Model Theory, Third Edition (Studies in Logic and the Foundations of Mathematics): C.C. Chang, H.J. Keisler: 9780444880543: Amazon.com: Books",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.amazon.com/Theory-Edition-Studies-Foundations-Mathematics/dp/0444880542"
+            }, {
+               "date_added": "13053674668143452",
+               "id": "75",
+               "name": "A Mathematical Introduction to Logic, Second Edition: Herbert Enderton, Herbert B. Enderton: 9780122384523: Amazon.com: Books",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.amazon.com/Mathematical-Introduction-Logic-Second-Edition/dp/0122384520"
+            }, {
+               "date_added": "13053674668143456",
+               "id": "76",
+               "name": "Set Theory: Thomas Jech: 9783540440857: Amazon.com: Books",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.amazon.com/dp/3540440852/?tag=stackoverfl08-20"
+            }, {
+               "date_added": "13053674668143459",
+               "id": "77",
+               "name": "Infinite Dimensional Analysis: A Hitchhiker's Guide: Charalambos D. Aliprantis, Kim C. Border: 9783540295860: Amazon.com: Books",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.amazon.com/dp/3540295860/?tag=stackoverfl08-20"
+            }, {
+               "date_added": "13053674668143471",
+               "id": "78",
+               "name": "The Road to Reality - Wikipedia, the free encyclopedia",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://en.wikipedia.org/wiki/The_Road_to_Reality:_A_Complete_Guide_to_the_Laws_of_the_Universe"
+            }, {
+               "date_added": "13053674668143475",
+               "id": "79",
+               "name": "Undergraduate Algebra",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.scribd.com/doc/6916156/Undergraduate-Algebra-0387220259"
+            }, {
+               "date_added": "13053674668143478",
+               "id": "80",
+               "name": "Matrix Comp",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.stat.uchicago.edu/~lekheng/courses/309/"
+            } ],
+            "date_added": "13121377010561678",
+            "date_modified": "13121377010561678",
+            "id": "13",
+            "name": "Textbooks",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13053674668143421",
+               "id": "61",
+               "name": "Detexify",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://detexify.kirelabs.org/classify.html"
+            }, {
+               "date_added": "13053674668143425",
+               "id": "62",
+               "name": "examples - What are your favorite instructional counterexamples? - MathOverflow",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://mathoverflow.net/questions/16829/what-are-your-favorite-instructional-counterexamples/16841#16841"
+            }, {
+               "date_added": "13053674668143429",
+               "id": "63",
+               "name": "Think Labyrinth: Maze Algorithms",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.astrolog.org/labyrnth/algrithm.htm"
+            }, {
+               "date_added": "13053674668143432",
+               "id": "64",
+               "name": "Procedural World",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://procworld.blogspot.com/"
+            }, {
+               "date_added": "13053674668143436",
+               "id": "65",
+               "name": "Calc w/ Infinitesimals",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.math.wisc.edu/~keisler/calc.html"
+            }, {
+               "date_added": "13053674668143439",
+               "id": "66",
+               "name": "Nearness",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.jstor.org/stable/2319561?seq=4"
+            }, {
+               "date_added": "13080494052924917",
+               "id": "67",
+               "name": "Mitya's homepage",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.math.lsa.umich.edu/~mityab/"
+            }, {
+               "date_added": "13080496083565407",
+               "id": "68",
+               "name": "math writing guide",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/piiUJM2up.pdf"
+            }, {
+               "children": [ {
+                  "date_added": "13073602977512374",
+                  "id": "70",
+                  "name": "Stat304",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.stat.uchicago.edu/~wichura/Stat304/Handouts/"
+               }, {
+                  "date_added": "13053674668143478",
+                  "id": "71",
+                  "name": "Matrix Comp",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.stat.uchicago.edu/~lekheng/courses/309/"
+               }, {
+                  "date_added": "13075420973301169",
+                  "id": "72",
+                  "name": "About | Ling.Gist",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://linggist.wordpress.com/about/"
+               } ],
+               "date_added": "13121377010576601",
+               "date_modified": "13121480464220094",
+               "id": "69",
+               "name": "Statistics",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            } ],
+            "date_added": "13121377010561795",
+            "date_modified": "13121377010561795",
+            "id": "14",
+            "name": "Mathematics",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13053674668143410",
+               "id": "58",
+               "name": "/sci/ guide",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://sites.google.com/site/scienceandmathguide/"
+            }, {
+               "date_added": "13053674668143413",
+               "id": "59",
+               "name": "Phys.Org",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://phys.org/"
+            }, {
+               "date_added": "13053674668143416",
+               "id": "60",
+               "name": "The Speculist",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://blog.speculist.com/"
+            } ],
+            "date_added": "13121377010561913",
+            "date_modified": "13121377010561914",
+            "id": "15",
+            "name": "Science",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13053674668143394",
+               "id": "55",
+               "name": "Blueprint",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://blueprint.uchicago.edu/"
+            }, {
+               "date_added": "13053674668143401",
+               "id": "56",
+               "name": "PayPal",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.paypal.com/us/home"
+            }, {
+               "date_added": "13053674668143405",
+               "id": "57",
+               "name": "RSO Funding",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://rsofunding.uchicago.edu/"
+            } ],
+            "date_added": "13121377010562030",
+            "date_modified": "13121377010562030",
+            "id": "16",
+            "name": "Ransom Notes",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13053674668143372",
+               "id": "46",
+               "name": "MIT OCW",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://ocw.mit.edu/index.htm"
+            }, {
+               "date_added": "13053674668143375",
+               "id": "47",
+               "name": "Khan Academy",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.khanacademy.org/"
+            }, {
+               "date_added": "13053674668143378",
+               "id": "48",
+               "name": "TED Talks",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.ted.com/talks"
+            }, {
+               "date_added": "13053674668143382",
+               "id": "49",
+               "name": "Project Gutenberg",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.gutenberg.org/"
+            }, {
+               "date_added": "13053674668143385",
+               "id": "50",
+               "name": "Coursera",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.coursera.org/"
+            }, {
+               "date_added": "13053674668143388",
+               "id": "51",
+               "name": "ECON 20110",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.glenweyl.com/teaching"
+            }, {
+               "date_added": "13104511409898053",
+               "id": "52",
+               "name": "Classic Novels: Meeting the Challenge of Great Literature | The Great Courses",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.thegreatcourses.com/courses/classic-novels-meeting-the-challenge-of-great-literature.html"
+            }, {
+               "date_added": "13112714787997417",
+               "id": "53",
+               "name": "MIT 6.863J/9.611J Natural Language Processing - Home",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://web.mit.edu/6.863/www/fall2012/"
+            }, {
+               "date_added": "13114446620561113",
+               "id": "54",
+               "name": "CS 229: Machine Learning",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://cs229.stanford.edu/"
+            } ],
+            "date_added": "13121377010562145",
+            "date_modified": "13121377010562145",
+            "id": "17",
+            "name": "Learning",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "date_added": "13076748658100375",
+            "id": "18",
+            "name": "Bookmarks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         }, {
+            "date_added": "13075691327224505",
+            "id": "19",
+            "name": "Reg Catalog",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://catalog.lib.uchicago.edu/vufind/"
+         }, {
+            "children": [ {
+               "date_added": "13075420981808865",
+               "id": "45",
+               "name": "Ling.Gist | summaries, critiques, big ideas",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://linggist.wordpress.com/"
+            } ],
+            "date_added": "13121377010562970",
+            "date_modified": "13121377010562970",
+            "id": "20",
+            "name": "Linguistics",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13103824624859226",
+               "id": "38",
+               "name": "GOLOSA",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.gwu.edu/~slavic/golosa/"
+            }, {
+               "date_added": "13103824634414396",
+               "id": "39",
+               "name": "V Puti",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.russian.ucla.edu/vputi/"
+            }, {
+               "date_added": "13103846495593515",
+               "id": "40",
+               "name": "StudentProgramsRussian.pdf",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://startalk.umd.edu/language-materials/StudentProgramsRussian.pdf"
+            }, {
+               "date_added": "13103850186273501",
+               "id": "41",
+               "name": "Grey-eyed king - Russian Poetry in English",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://sites.google.com/site/poetryandtranslations/anna-akhmatova/grey-eyed-king"
+            }, {
+               "date_added": "13103850208608304",
+               "id": "42",
+               "name": "Alexander Pushkin - Russian Poetry in English",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://sites.google.com/site/poetryandtranslations/aleksander-pushkin"
+            }, {
+               "date_added": "13103850214234434",
+               "id": "43",
+               "name": "Russian Poetry in English",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://sites.google.com/site/poetryandtranslations/"
+            }, {
+               "date_added": "13104176032904717",
+               "id": "44",
+               "name": "Mini-Video for Language Learning",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://russian.cornell.edu/mini/index.cfm"
+            } ],
+            "date_added": "13121377010563097",
+            "date_modified": "13121377010563097",
+            "id": "21",
+            "name": "Russian",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13103824624859226",
+                  "id": "31",
+                  "name": "GOLOSA",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.gwu.edu/~slavic/golosa/"
+               }, {
+                  "date_added": "13103824634414396",
+                  "id": "32",
+                  "name": "V Puti",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.russian.ucla.edu/vputi/"
+               }, {
+                  "date_added": "13103846495593515",
+                  "id": "33",
+                  "name": "StudentProgramsRussian.pdf",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://startalk.umd.edu/language-materials/StudentProgramsRussian.pdf"
+               }, {
+                  "date_added": "13103850186273501",
+                  "id": "34",
+                  "name": "Grey-eyed king - Russian Poetry in English",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://sites.google.com/site/poetryandtranslations/anna-akhmatova/grey-eyed-king"
+               }, {
+                  "date_added": "13103850208608304",
+                  "id": "35",
+                  "name": "Alexander Pushkin - Russian Poetry in English",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://sites.google.com/site/poetryandtranslations/aleksander-pushkin"
+               }, {
+                  "date_added": "13103850214234434",
+                  "id": "36",
+                  "name": "Russian Poetry in English",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://sites.google.com/site/poetryandtranslations/"
+               }, {
+                  "date_added": "13104176032904717",
+                  "id": "37",
+                  "name": "Mini-Video for Language Learning",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://russian.cornell.edu/mini/index.cfm"
+               } ],
+               "date_added": "13121377010564785",
+               "date_modified": "13121377010564785",
+               "id": "27",
+               "name": "Russian",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13121377010564909",
+               "date_modified": "13121377010564910",
+               "id": "28",
+               "name": "Kazakh",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13121377010565026",
+               "date_modified": "13121377010565026",
+               "id": "29",
+               "name": "Urdu",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13121377010565145",
+               "date_modified": "13121377010565145",
+               "id": "30",
+               "name": "Spanish",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            } ],
+            "date_added": "13121377010563214",
+            "date_modified": "13121377010563214",
+            "id": "22",
+            "name": "Languages",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13114446620561113",
+               "id": "24",
+               "name": "CS 229: Machine Learning",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://cs229.stanford.edu/"
+            }, {
+               "date_added": "13112714787997417",
+               "id": "25",
+               "name": "MIT 6.863J/9.611J Natural Language Processing - Home",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://web.mit.edu/6.863/www/fall2012/"
+            }, {
+               "date_added": "13114827539243192",
+               "id": "26",
+               "name": "A gallery of interesting IPython Notebooks · ipython/ipython Wiki · GitHub",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks"
+            } ],
+            "date_added": "13121377010563335",
+            "date_modified": "13121377010563335",
+            "id": "23",
+            "name": "MachineLearning",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         } ],
+         "date_added": "13121376885231714",
+         "date_modified": "13121536733672196",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13121376885231725",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "13",
+      "synced": {
+         "children": [  ],
+         "date_added": "13121376885231734",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

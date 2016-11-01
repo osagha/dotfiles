@@ -1,0 +1,6 @@
+2016/10/24-09:13:40.302 534 Reusing MANIFEST /home/omar/.config/chromium/Default/IndexedDB/chrome-extension_klbibkeccnjlkjkiokjodocebajanakg_0.indexeddb.leveldb/MANIFEST-000001
+2016/10/24-09:13:40.302 534 Recovering log #3
+2016/10/24-09:13:40.367 534 Reusing old log /home/omar/.config/chromium/Default/IndexedDB/chrome-extension_klbibkeccnjlkjkiokjodocebajanakg_0.indexeddb.leveldb/000003.log 
+2016/10/24-23:34:14.108 5818 Level-0 table #5: started
+2016/10/24-23:34:14.212 5818 Level-0 table #5: 2551771 bytes OK
+2016/10/24-23:34:14.221 5818 Delete type=0 #3

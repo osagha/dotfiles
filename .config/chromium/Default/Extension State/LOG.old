@@ -1,0 +1,21 @@
+2016/10/24-09:13:40.622 529 Reusing MANIFEST /home/omar/.config/chromium/Default/Extension State/MANIFEST-000001
+2016/10/24-09:13:40.623 529 Recovering log #14
+2016/10/24-09:13:40.733 529 Reusing old log /home/omar/.config/chromium/Default/Extension State/000014.log 
+2016/10/24-09:44:21.708 1318 Level-0 table #18: started
+2016/10/24-09:44:21.803 1318 Level-0 table #18: 3354030 bytes OK
+2016/10/24-09:44:21.829 1318 Delete type=0 #14
+2016/10/24-09:44:21.834 1318 Compacting 4@0 + 1@1 files
+2016/10/24-09:44:21.933 1318 Generated table #19@0: 9 keys, 10756 bytes
+2016/10/24-09:44:21.933 1318 Compacted 4@0 + 1@1 files => 10756 bytes
+2016/10/24-09:44:21.941 1318 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/10/24-09:44:21.941 1318 Delete type=2 #18
+2016/10/24-09:44:21.944 1318 Delete type=2 #15
+2016/10/24-09:44:21.946 1318 Delete type=2 #11
+2016/10/24-09:44:21.948 1318 Delete type=2 #13
+2016/10/24-09:44:21.951 1318 Delete type=2 #8
+2016/10/24-14:22:32.873 1318 Level-0 table #21: started
+2016/10/24-14:22:33.032 1318 Level-0 table #21: 3660162 bytes OK
+2016/10/24-14:22:33.046 1318 Delete type=0 #17
+2016/10/25-15:00:24.292 1318 Level-0 table #23: started
+2016/10/25-15:00:24.480 1318 Level-0 table #23: 3556607 bytes OK
+2016/10/25-15:00:24.498 1318 Delete type=0 #20

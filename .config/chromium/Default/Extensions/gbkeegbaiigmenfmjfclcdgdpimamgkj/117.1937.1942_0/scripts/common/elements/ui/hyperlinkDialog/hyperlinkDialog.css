@@ -1,0 +1,36 @@
+:host {
+    position: absolute;
+    white-space: nowrap;
+    height: 45px;
+    width: auto;
+    background: white;
+    border: 2px solid darkgrey;
+    font-family: Arial, sans-serif;
+    color: #666;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 10pt;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    pointer-events: auto;
+    cursor: default;
+    position: absolute;
+    left: -2px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: inherit;
+    align-items: center;
+}
+
+#action {
+    margin-left: 10px;
+    border-bottom: 1px solid;
+    cursor: hand;
+    color: blue;
+}
+
+
+
+
+

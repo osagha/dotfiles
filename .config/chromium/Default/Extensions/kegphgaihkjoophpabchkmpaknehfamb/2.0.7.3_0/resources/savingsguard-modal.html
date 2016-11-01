@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Coupons at Checkout</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/resources/css/savingsguard.css" />
+    <link rel="stylesheet" href="/resources/css/normalize.css" />
+
+    <!--
+     The font is injected through grunt
+     Chrome: Use google font
+     Firefox: local (downloaded) font is used which is injected in index.js (no font is injected here). That's because
+     of restriction imposed by Firefox AMO to use local resources only
+    -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
+</head>
+<body class="savingsguard-body">
+
+<div class="progress-modal">
+
+<!-- #1 Progress-bar -->
+<div id="applyingCodes"  class="popup">
+
+    <!-- We need additional parent-wrapper to be able to see Close button that is outside
+        *__wrapper element that has overflow: hidden to always display rounded borders -->
+    <div class="popup__wrapper">
+
+        <header class="popup__header">
+            <img class="popup__header-logo to-absolute" src="/resources/img/full-logo@2x.png" alt="Coupons at Checkout" />
+        </header>
+
+        <div class="popup__content">
+            <p id="message" class="popup__content-text m--with-margin">
+                We’re automatically trying 5 coupon codes for you
+            </p>
+
+            <div class="progress-bar">
+                <progress id="progressBar"  class="progress-bar__bar" max="100" value="0"></progress>
+                <h3 id="progressText" class="progress-bar__title"></h3>
+            </div>
+        </div>
+
+        <footer class="popup__footer m--cancel">
+            <a class="popup__footer-close cancel" href="#">Cancel</a>
+        </footer>
+    </div>
+</div>
+
+<!-- #2 Applying code -->
+<div id="applyingBestCode" class="popup" style="display: none;">
+
+    <!-- We need additional parent-wrapper to be able to see Close button that is outside
+        *__wrapper element that has overflow: hidden to always display rounded borders -->
+    <div class="popup__wrapper">
+
+        <header class="popup__header">
+            <img class="popup__header-logo to-absolute" src="/resources/img/full-logo@2x.png" alt="Coupons at Checkout" />
+        </header>
+
+        <div class="popup__content">
+            <p class="popup__content-text m--with-margin">
+                Applying best code...
+            </p>
+
+            <div class="popup__retina-image">
+                <img class="to-absolute" src="/resources/img/savings-guard-logo@2x.png" alt="Savings guard" />
+            </div>
+        </div>
+
+        <footer class="popup__footer m--cancel">
+            <a class="popup__footer-close cancel" href="#">Cancel</a>
+        </footer>
+
+    </div>
+</div>
+
+<!-- #3 Sorry -->
+<div id="errorPage" class="popup" style="display: none;">
+
+    <div class="popup__close-icon cancel"></div>
+
+    <!-- We need additional parent-wrapper to be able to see Close button that is outside
+        *__wrapper element that has overflow: hidden to always display rounded borders -->
+    <div class="popup__wrapper">
+
+        <header class="popup__header">
+            <img class="popup__header-logo to-absolute" src="/resources/img/full-logo@2x.png" alt="Coupons at Checkout" />
+        </header>
+
+        <div class="popup__content">
+            <div class="popup__retina-image m--with-margin">
+                <img class="to-absolute" src="/resources/img/error-flag@2x.png" alt="Error Flag" />
+            </div>
+            <p class="popup__content-text">
+                Sorry it looks like we’re having trouble? We’ve automatically logged this error.
+            </p>
+        </div>
+
+        <footer class="popup__footer m--cancel">
+            <a class="popup__footer-close cancel" href="#">Cancel</a>
+            <a class="popup__footer-link m--right sendFeedbackBtn" href="http://couponfollow.com/checkout/popup/feedback">Send feedback</a>
+        </footer>
+    </div>
+
+</div>
+
+<!-- #4 Share with friends-->
+<div id="couponSuccess" class="popup" style="display: none;">
+
+    <div class="popup__close-icon cancel"></div>
+
+    <!-- We need additional parent-wrapper to be able to see Close button that is outside
+        *__wrapper element that has overflow: hidden to always display rounded borders -->
+    <div class="popup__wrapper">
+
+        <header class="popup__header">
+            <img class="popup__header-logo m--text-image-logo to-absolute" src="/resources/img/catc-logo-text@2x.png" alt="Coupons at Checkout" />
+        </header>
+
+        <div class="popup__content">
+            <div class="popup__retina-image m--fixed-height">
+                <img id="successImageUrl" class="to-absolute" alt="Success image" />
+            </div>
+
+            <h2 id="successText" class="popup__saving-description">Yoink! You just saved <strong class="popup__saving-amount">$4.53!</strong></h2>
+
+        </div>
+
+        <div class="footers">
+            <footer id="shareSavingsFooter" class="popup__footer">
+                <p class="popup__footer-message">Share your savings with a friend!</p>
+
+                <ul class="inline-group m--center">
+                    <li class="inline-group__item"><a target="_blank" id="shareOnTwitter" class="button m--twitter share" href="#">Tweet</a></li>
+                    <li class="inline-group__item"><a target="_blank" id="shareOnFacebook" class="button m--facebook share" href="#">Share</a></li>
+                    <li class="inline-group__item"><a target="_blank" id="shareViaEmail" class="button m--red m--email" href="#">Email</a></li>
+                </ul>
+                <a class="popup__footer-link m--right sendFeedbackBtn" href="http://couponfollow.com/checkout/popup/feedback">Send feedback</a>
+            </footer>
+
+            <footer id="rateCatc2" class="popup__footer">
+                <p class="popup__footer-message">How does Coupons at Checkout make you feel?</p>
+
+                <ul class="inline-group m--center">
+                    <li class="inline-group__item"><a id="happyBtn" class="button m--green" href="#">Happy</a></li>
+                    <li class="inline-group__item"><a id="justOkBtn" class="button m--turquoise" href="#">Just OK</a></li>
+                    <li class="inline-group__item"><a id="unhappyBtn" class="button m--red" href="#">Unhappy</a></li>
+                </ul>
+                <a class="popup__footer-link m--right sendFeedbackBtn" href="http://couponfollow.com/checkout/popup/feedback">Send feedback</a>
+            </footer>
+
+            <footer id="writeReviewFooter" class="popup__footer">
+                <p class="popup__footer-message">Thanks! Would you mind writing a review on the <span id="storeName"></span>?</p>
+
+                <a id="writeReviewBtn" class="button m--turquoise m--medium m--stars" target="_blank" href="#">Sure, I’ll write a review</a>
+            </footer>
+
+            <footer id="sendFeedbackFooter" class="popup__footer">
+                <p class="popup__footer-message">We’re sorry to hear that. Care to tell us how we could improve?</p>
+
+                <a class="button m--turquoise m--medium sendFeedbackBtn"  target="_blank" href="http://couponfollow.com/checkout/popup/feedback">Send feedback</a>
+            </footer>
+        </div>
+    </div>
+
+    <a class="popup__close cancel" href="#">Close Window</a>
+</div>
+
+<!-- #9 Bummer, no savings -->
+<div id="noSavings_requestACoupon" class="popup" style="display: none;">
+
+    <div class="popup__close-icon cancel"></div>
+
+    <!-- We need additional parent-wrapper to be able to see Close button that is outside
+        *__wrapper element that has overflow: hidden to always display rounded borders -->
+    <div class="popup__wrapper">
+
+        <header class="popup__header">
+            <img class="popup__header-logo m--text-image-logo to-absolute" src="/resources/img/catc-logo-text@2x.png" alt="Coupons at Checkout" />
+        </header>
+
+        <div class="popup__content">
+            <div class="popup__retina-image m--fixed-height">
+                <img class="to-absolute" src="/resources/img/no-savings-1@2x.png" alt="No Savings" />
+            </div>
+
+            <h2 class="popup__saving-description">Bummer, no savings this time :(</h2>
+
+        </div>
+
+        <footer class="popup__footer">
+            <p class="popup__footer-message">Request a code from <span class="domainName"></span> with Twitter</p>
+
+            <a id="requestACoupon" class="button m--twitter m--medium" target="_blank" href="#">Request a coupon</a>
+            <a class="popup__footer-link m--right sendFeedbackBtn" href="http://couponfollow.com/checkout/popup/feedback">Send feedback</a>
+        </footer>
+    </div>
+
+    <a class="popup__close cancel" href="#">Close Window</a>
+</div>
+
+<!-- #10 Sorry, no savings. Notify by email -->
+<div  id="noSavings_notify" class="popup" style="display: none;">
+
+    <div class="popup__close-icon cancel"></div>
+
+    <!-- We need additional parent-wrapper to be able to see Close button that is outside
+        *__wrapper element that has overflow: hidden to always display rounded borders -->
+    <div class="popup__wrapper">
+
+        <header class="popup__header">
+            <img class="popup__header-logo m--text-image-logo to-absolute" src="/resources/img/catc-logo-text@2x.png" alt="Coupons at Checkout" />
+        </header>
+
+        <div class="popup__content">
+            <div class="popup__retina-image m--fixed-height">
+                <img class="to-absolute" src="/resources/img/no-savings-2@2x.png" alt="No Savings" />
+            </div>
+
+            <h2 class="popup__saving-description">Sorry, no savings this time :(</h2>
+
+        </div>
+
+        <div class="footers">
+            <footer id="notifyMeFooter" class="popup__footer">
+                <p class="popup__footer-message">Get notified next time <span class="domainName"></span> releases a coupon?</p>
+
+                <form id="notifyMeForm" class="form__inline-form">
+                    <input id="emailInput" class="popup__email-input" type="email" />
+                    <button id="notifyMeBtn" class="button" type="submit">Notify me</button>
+                </form>
+
+                <a class="popup__footer-link m--right sendFeedbackBtn" href="http://couponfollow.com/checkout/popup/feedback">Send feedback</a>
+            </footer>
+
+            <footer id="closeModal" class="popup__footer" style="display: none;">
+                But you'll be notified when new coupons become available!
+            </footer>
+        </div>
+    </div>
+
+    <a class="popup__close cancel" href="#">Close Window</a>
+</div>
+
+</div>
+
+<!-- Following element is only used for matching pattern in index.js (Firefox) to inject scripts in the page -->
+<span style="display: none;" id="savingsguardModalPage"></span>
+
+<script src="/lib/jquery.js"></script>
+<script src="/config.js"></script>
+<script src="/lib/lscache.js"></script>
+<script src="/browserSpecific/contentscriptApiWrapper.js"></script>
+<script src="/utils.js"></script>
+<script src="/resources/js/savingsguard-modal.js"></script>
+
+
+</body>
+</html>
