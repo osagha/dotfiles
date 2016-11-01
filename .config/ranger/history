@@ -1,4 +1,21 @@
 shell mkdir Cake By The Ocean
-delete
 open_with k
+open_with chromi
+rename GradSchoolsSheet.xlsx
+move
+
+rename OldSheet.xlsx
+shell
+shell qqq
+open_with 
+search wp
+open_with j
+rename Tempest_annotated.pdf
+rename dotfiles
+shell git add
+rename Bjorkman_2014.pdf
+open_with unizp
+open_with unzip
 open_with chromium
+delete
+search Rans
